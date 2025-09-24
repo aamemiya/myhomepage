@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/</loc>
+    <lastmod>2019-07-15T21:30:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/profile/</loc>
+    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/profile/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/publication/</loc>
+    <lastmod>2019-03-16T15:52:28+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/research/</loc>
+    <lastmod>2019-03-16T16:02:18+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/research/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/links/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://data-assimilation.riken.jp/~amemiya/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="http://data-assimilation.riken.jp/~amemiya/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://data-assimilation.riken.jp/~amemiya/tags/"
+                />
+  </url>
+  
+</urlset>

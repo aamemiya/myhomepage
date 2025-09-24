@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.54.0" />
+
+
+
+<link rel="canonical" href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/">
+
+
+<script type="text/javascript" src="http://data-assimilation.riken.jp/~amemiya/MathJax/MathJax-2.7.5/MathJax.js?config=TeX-AMS_CHTML,local/local"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>雨宮 新 research website</title>
+    
+    <link href="http://data-assimilation.riken.jp/~amemiya/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+	    
+            <a class="navbar-brand" href="http://data-assimilation.riken.jp/~amemiya//jp">雨宮 新 research website</a>
+             
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+	      
+	      <li><a href="http://data-assimilation.riken.jp/~amemiya/">English</a></li>  
+               
+	    </ul>
+	    
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/~amemiya/jp/">ホーム</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/profile/">プロフィール</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/publication/">論文・学会発表</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/research/">研究内容</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/links/">リンク</a></li>
+              
+              
+            </ul>
+             
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+
+	
+        <li><a href="http://data-assimilation.riken.jp/~amemiya/jp/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+            
+<li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">研究内容</span></li>
+
+        
+          <li class="active">山岳波の線形理論・Fourier-Rayモデル 2</li> 
+	
+
+      </ol>
+    </nav>
+
+
+<main class="main list">
+	<div class="content clearfix">
+	<div class="article-body">
+		
+
+<h2 id="複数の層をもつ背景場の場合">複数の層をもつ背景場の場合</h2>
+
+<p>大気の鉛直構造は滑らかに徐々に変化するとは限らない。大気境界層や圏界面付近で見られるように、異なる性質の層が上下に重なり、その境界付近では物理量が急激に変化するような特徴もよく見られる。</p>
+
+<p>背景場の鉛直構造を考慮してモデルを発展させる。背景場全体に単一の水平風と鉛直安定度の値を使う代わりに、大気が複数の層からなると考え、それぞれの層で異なる背景場の値を定義できるようにする。<br />
+このモデルは、層境界を通過する重力波の屈折と反射を表現することができる。</p>
+
+<p>先の背景場一様の場合において、水平波数$k$に対して分散関係から2つの$m$の値が得られ、それぞれ群速度でみた上向き・下向き伝播に対応していた。背景場一様の場合は上向き伝播の成分のみ存在すると考えて計算した。しかし、複数の層を考慮する場合、一番上の層以外は、層境界から発生し下向きに伝播する重力波の存在を考慮する必要がある。これは境界での重力波の部分反射があることを意味している。</p>
+
+<p>各変数の擾乱をx方向にフーリエ変換し、ある水平波数$k$の成分について考えることにする。各層では背景場の変数が異なるため、分散関係が異なる。そこで$j$番目の層の鉛直波数を$m_j$と書くことにする。さらに、$k$に対応する$m_j$の2つの値のうち、群速度上向き・下向きのものをそれぞれ$m_j^{+}$、$m_j^{-}$と表す。なお、伝播しない成分にあたる$m_j$が純虚数の場合は、虚数部が正で$\exp(imz)$が$z$の減少関数となる方を$m_j^{+}$とする。<br />
+層の内側での物理量の分布は、各波数$k$において上向き・下向き成分の重ね合わせであり、振幅$\hat{\eta}_j^{+},\hat{\eta}_j^{-}$を用いて次のように表す。なお、最上層では上向き成分のみが存在する。
+$$ \eta(x,z) = \int \left[ \hat{\eta}_j^{+}(k) \exp(im_j^{+}(k)z) + \hat{\eta}_j^{-}(k) \exp(im_j^{-}(k)z) \right]\exp(ikx) dk $$</p>
+
+<figure align="center">
+<img src="../../../images/gw/layer_overview.png" width=300px>
+<figcaption>各層内で定義される重力波成分</figcaption>
+</figure>
+
+<p>各層の境界における接続条件を考える。層$j$の下端の高さを$z_{j}$と表すことにする。<br />
+地表である$z=z_{1}=0$においては、背景場一様の場合と同様に、波源の山岳の形状を用いて次の式が任意の$k$について成り立つ。
+$$ \hat{h} = \hat{\eta}_1^{+} + \hat{\eta}_1^{-} $$</p>
+
+<p>$j=2$~$N$の層境界$z_{j}$においては、満たすべき接続条件は次のとおりである。</p>
+
+<ol>
+<li><p>鉛直変位 $\eta$ が境界上下で連続である<br>
+$ \eta_{j-1}^{+} + \eta_{j-1}^{-} = \eta_{j}^{+} + \eta_{j}^{-} $</p></li>
+
+<li><p>境界の両側からの力がつりあっている、<br>すなわち気圧擾乱 $p&rsquo;$ が境界上下で連続である<br>
+$ p_{j-1}^{+} + p_{j-1}^{-} = p_{j}^{+} + p_{j}^{-} $</p></li>
+</ol>
+
+<p>1より、
+$$ \hat{\eta}_{j-1}^{+} \exp ( im_{j-1}^{+}\Delta z_j) + \hat{\eta}_{j-1}^{-} \exp ( im_{j-1}^{-}\Delta z_j) = \hat{\eta}_{j}^{+} + \hat{\eta}_{j}^{+}$$
+ただし$\Delta z_j\equiv z_{j}-z_{j-1}$と定義した。</p>
+
+<p>また、2に偏波関係 $ \hat{p} = \frac{i\rho_0}{m} (N^2-\hat{\omega}^2)\hat{\eta}$ を用いると、
+$$ \frac{N_{j-1}^2 - k^2\overline{u}_{j-1}}{m_{j-1}^{+}} \hat{\eta}_{j-1}^{+} \exp ( im_{j-1}^{+}\Delta z_j) + \frac{N_{j-1}^2 - k^2\overline{u}_{j-1}}{m_{j-1}^{-}}\hat{\eta}_{j-1}^{-} \exp ( im_{j-1}^{-}\Delta z_j) = \frac{N_{j}^2 - k^2\overline{u}_{j}}{m_{j}^{+}}\hat{\eta}_{j}^{+} + \frac{N_{j}^2 - k^2\overline{u}_{j}}{m_{j}^{-}}\hat{\eta}_{j}^{+}$$</p>
+
+<p>最上層$j=N$においては、右辺第二項の下向きの波 $\hat{\eta}_{N}^{-}$ は省いてよい。<br />
+地表境界$z_1$ で1個、層の間の境界$z_2 \dots z_N$で2個ずつの制約があるので、ちょうど$2N-1$個の複素数の変数$\hat{\eta}$を求めるのに必要な方程式の数が満たされている。<br />
+数値計算でこの方程式を解く際には、連立方程式は次のように行列 $\pmb{C}$ とベクトル$\pmb{\eta}, \pmb{h}$でまとめて記述する。$\pmb{\eta}$の成分は$\hat{\eta}_{1}^{+}, \hat{\eta}_{1}^{-}, \hat{\eta}_{2}^{+},\ \dots$であり、$\pmb{h}$の成分は$\hat{h},\ 0,\, 0,\, \dots$である。
+$$ \pmb{C} \pmb{\eta} = \pmb{h}  $$</p>
+
+<p>連立方程式を解いて$\hat{\eta}$の組を求めれば、各層内で$m_{j}^{+}, m_{j}^{-}$を用いて偏波関係からそれぞれの変数を計算し、フーリエ逆変換によって目的の$(x,z)$の場を得ることができる。</p>
+
+<figure align="center">
+<img src="../../../images/gw/layer_sample.png" width=750px>
+<figcaption>(左)2層モデルで計算された$\eta$、$w'$ (中)$\eta$、$u',w'$(ベクトル) (右)背景場の$\overline{u},N^2$の鉛直分布 </figcaption>
+</figure>
+
+<p>上図は$z=6 \mathrm{km}$の上下で異なる水平風$\overline{u}$と鉛直安定度$N^2$を設定した2層の場合の山岳波の計算結果である。鉛直安定度は地表から$z=6 \mathrm{km}$では対流圏の典型的な値、その上側では4倍の大きさの成層圏に対応する値が与えられている。<br />
+地表から$z=6 \mathrm{km}$では鉛直波長が比較的長い。また、ほとんど直立した構造をとっているから、$z=6 \mathrm{km}$で反射された下向き伝播する波も元の山岳波と同程度に大きく地表付近の風に寄与していることを示している。<br />
+上空では$N^2$が顕著に大きいため鉛直波数$m$が大きい、すなわち鉛直波長の短い波が卓越する。これはまさに波の屈折を表している。</p>
+
+<h3 id="参考">参考</h3>
+
+<p><a href="https://doi.org/10.1175/1520-0469(1975)032&lt;0320:TDOWID&gt;2.0.CO;2">Klemp and Lilly, &ldquo;The Dynamics of Wave-Induced Downslope Winds&rdquo;, <em>Journal of the Atmospheric Sciences</em> ,1975</a><br />
+Gill, <em>Atmosphere-Ocean Dynamics</em>, 1982; Chapter 4</p>
+
+	</div>
+	</div>
+</main>
+
+  </div>
+
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">PAGES</div>
+    </div>
+    <div class="list-group">
+      
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_section1/" class="list-group-item">大気重力波の分散関係・偏波関係</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/" class="list-group-item">山岳波の線形理論・Fourier-Rayモデル 2</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_intro/" class="list-group-item">はじめに</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/" class="list-group-item">山岳波の線形理論・Fourier-Rayモデル 1</a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+    </div>
+  </section>
+
+</aside>
+
+
+  </div>
+  </div>
+
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; 雨宮 新 research website</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

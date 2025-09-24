@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.54.0" />
+
+
+
+<link rel="canonical" href="http://data-assimilation.riken.jp/~amemiya/jp/research/assim/">
+
+
+<script type="text/javascript" src="http://data-assimilation.riken.jp/~amemiya/MathJax/MathJax-2.7.5/MathJax.js?config=TeX-AMS_CHTML,local/local"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>雨宮 新 research website</title>
+    
+    <link href="http://data-assimilation.riken.jp/~amemiya/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+	    
+            <a class="navbar-brand" href="http://data-assimilation.riken.jp/~amemiya//jp">雨宮 新 research website</a>
+             
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+	      
+	      <li><a href="http://data-assimilation.riken.jp/~amemiya/">English</a></li>  
+               
+	    </ul>
+	    
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/~amemiya/jp/">ホーム</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/profile/">プロフィール</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/publication/">論文・学会発表</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/research/">研究内容</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/links/">リンク</a></li>
+              
+              
+            </ul>
+             
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+
+	
+        <li><a href="http://data-assimilation.riken.jp/~amemiya/jp/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+            
+<li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://data-assimilation.riken.jp/~amemiya/jp/research/" itemprop="url"><span itemprop="title">research</span></a></li>
+
+        
+          <li class="active">データ同化の概要</li> 
+	
+
+      </ol>
+    </nav>
+
+
+<main class="main list">
+	<div class="content clearfix">
+	<div class="article-body">
+		
+
+<!--
+
+## 領域モデルとLETKFによる降水予報
+
+現在所属する理研R-CCSデータ同化研究チームにて、局所アンサンブル変換カルマンフィルタ(LETKF)を用いた降水予報のためのデータ同化の研究を行っています。  
+予報モデルには複合系気候科学研究チームで開発された領域気象予報モデル  
+[SCALE-RM](http://r-ccs-climate.riken.jp/scale/ja/scale-rm/index.html)を利用しています。  
+
+研究内容、研究成果は以下のプロジェクトページを参照ください。  
+
+[JST CREST「『ビッグデータ同化』の技術革新の創出によるゲリラ豪雨予測の実証」](http://www.data-assimilation.riken.jp/BDA/index.html)  
+(2018年度で終了、現在は後継プロジェクトの[ビッグデータ同化とAIによるリアルタイム気象予測の新展開](https://www.jst.go.jp/kisoken/aip/program/research/aip2019.html)が活動中)  
+
+-->
+
+<h2 id="データ同化の概要">データ同化の概要</h2>
+
+<h3 id="参考">参考</h3>
+
+<p><a href="http://www.data-assimilation.riken.jp/jp/research/index.html">データ同化研究チーム：研究紹介</a><br />
+<a href="https://www.jma.go.jp/jma/kishou/know/whitep/1-3-1.html">気象庁 | 数値予報とは</a><br />
+<a href="https://www.jma.go.jp/jma/kishou/books/nwptext/nwptext.html">気象庁 | 数値予報解説資料（数値予報研修テキスト）</a></p>
+
+<h3 id="データ同化の行っていること">データ同化の行っていること</h3>
+
+<p>データ同化は多くの分野で使われており、さまざまな理解のしかたがあります。<br />
+最も一般的には、データ同化はベイズ推定の一種であり、<br />
+「ある量についての推定値を、新たな情報を用いてよりよい推定値に更新する」<br />
+ための計算手法として理解できます。</p>
+
+<p>特に気象・海洋におけるデータ同化は、観測で得られる情報をもとにして、<br />
+<strong>直接観測されない部分を含めた全体的な大気や海洋の状態を推定する</strong><br />
+ことを目的としています。</p>
+
+<p>大気や海洋の観測には様々な種類がありますが、得られるデータは時間的・空間的に限られています。また、風のみの観測や、雲の画像のみの観測など、測器によって観測される変数も異なっています。</p>
+
+<figure align="center">
+<img src="../../../images/assim/ADPSFC_0001.png" width=350px><img src="../../../images/assim/ADPUPA_0001.png" width=350px>
+<figcaption>(左) NCEP GDAS に用いられる地上観測点 (右)ラジオゾンデの観測点の分布の例</figcaption>
+</figure>
+
+<p>人間が天気予報を行うときは、複数の観測やモデルのデータに基づいて、最初に全体的な状態を把握する段階があります。<br />
+例えばラジオの気象通報を聞いて天気図に等圧線や前線を描く作業をするときは、観測点の間を補うために気圧配置の全体像を頭の中で作りながら描きます。<br />
+このような全体像の把握のための作業を一般的に「解析」と呼びます。</p>
+
+<p>同じ作業を、数式で記述した理論に基づいて客観的・定量的に行うのがデータ同化です。<br />
+そのため
+、データ同化やその結果として得られる格子点値のことを「客観解析」とも呼びます。客観解析の目的は主に以下の2つがあります。</p>
+
+<ol>
+<li>解析雨量のように、人間の目で把握しやすい均質な格子データを提供する</li>
+<li>状態の時間変化の計算に必要な全ての変数について、格子点上の推定値を作り、<br>予報モデルの初期値に使う</li>
+</ol>
+
+<p>データ同化で解析値を作るとき、例えば次のようなことができます。</p>
+
+<h4 id="推定精度の向上">推定精度の向上</h4>
+
+<p>データ同化では、モデルの第一推定値（予報値）と観測値を組み合わせて最適な推定値(解析値)を計算します。  結果として、出てくる解析値の不確かさ(解析誤差)は、もともとの2つの情報の不確かさ(背景誤差と観測誤差)よりも小さくなります。<br />
+例えば、ある地点の気温の第一推定値と観測がどちらも29℃、誤差がどちらも1℃であるときは、解析誤差は約0.7℃となります。</p>
+
+<h4 id="観測されない変数の推定">観測されない変数の推定</h4>
+
+<p>ある地点の状態を表現するために必要な変数は一つではなく、大気の場合、水平風・鉛直風、温度、気圧、水蒸気混合比のように、複数の変数があります。それらは独立ではなく、例えば気圧と水平風の間に地衡風の関係があるように、物理的に結びついています。<br />
+観測されるのはふつう一部の変数のみですが、この物理的な関係が利用できれば、観測値の情報は他の変数の推定にも用いることができます。</p>
+
+<p>複数の変数間の物理的な関係は、予報モデルの基礎方程式によって表現されています。カルマンフィルタや4次元データ同化のような手法では、データ同化の中にモデルの物理法則を反映させ、異なる変数が整合的な関係を保つような解析値を作ることができます。</p>
+
+<h4 id="時間-空間的な補間">時間・空間的な補間</h4>
+
+<p>観測データは上図のように空間的にまばらに分布していますが、ある程度離れた地点でも誤差を考慮して観測値を推定に使うことができます。<br />
+データ同化では、観測のない格子点を近くの観測の情報で補うための、ある程度の局所的な領域の広さを設定しています。<br />
+また上記のように変数間の物理的な関係を考慮することによっても、風上での観測値を風下の地点の物理量の推定に用いるなどして、広い範囲の解析値に観測の情報を反映させることができます。</p>
+
+<h3 id="大気-海洋のデータ同化における工夫">大気・海洋のデータ同化における工夫</h3>
+
+<p>大気・海洋分野でデータ同化を実践する際の課題は、大きな計算コストへの対応です。</p>
+
+<p>状態を時間・空間的に均質な格子データとして記述するには、膨大な数の格子点が必要となります。特に新たな観測技術やモデルは高解像度化が進み、必要とされるデータの容量もますます増加しています。例えば領域気象予報モデルの場合、一つの時刻の状態を表すために必要な変数の数は、全ての格子点と変数の種類を合わせると数百万~数千万になります。<br />
+このような膨大なデータに対して、一般的なデータ同化の手法を単純に適用するのは不可能です。大気中の現象や観測データの性質をうまく利用して、計算の重要な性質は保ちつつ、計算量を効果的に減らすための工夫が必要となります。</p>
+
+<p>現在多くの研究で用いられている局所アンサンブル変換カルマンフィルタ(LETKF)は、通常のカルマンフィルタに比べ様々な点で、大規模データに対応した工夫がなされています。</p>
+
+<ul>
+<li>(数十個程度の)アンサンブルによって予報誤差を表現する</li>
+<li>解析値を計算するための行列の演算を低次元に変換して行う</li>
+<li>計算をモデルの領域の各部分で局所化して独立に行う</li>
+</ul>
+
+<p>これらの工夫は計算の精度を向上するとともに、現実的な計算資源と計算時間のもとで大規模で高解像度のデータ同化の実践を可能にしています。</p>
+
+	</div>
+	</div>
+</main>
+
+  </div>
+
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">PAGES</div>
+    </div>
+    <div class="list-group">
+      
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/research/cluster/" class="list-group-item">アンサンブル予報の後処理と可視化</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/research/biascorr/" class="list-group-item">機械学習とデータ同化を用いたバイアス補正</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/research/radar_assim/" class="list-group-item">気象レーダのデータ同化</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/research/assim/" class="list-group-item">データ同化の概要</a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/research/ama/" class="list-group-item">アジアモンスーン高気圧</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/research/gwp/" class="list-group-item">重力波パラメタリゼーション</a>
+      
+    </div>
+  </section>
+
+</aside>
+
+
+  </div>
+  </div>
+
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; 雨宮 新 research website</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
