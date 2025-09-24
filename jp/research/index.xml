@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>研究内容 on 雨宮 新 research website</title>
-    <link>http://data-assimilation.riken.jp/~amemiya/jp/research/</link>
+    <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/</link>
     <description>Recent content in 研究内容 on 雨宮 新 research website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Mar 2019 16:02:18 +0900</lastBuildDate>
     
-	<atom:link href="http://data-assimilation.riken.jp/~amemiya/jp/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aamemiya.github.io/webpage_aamemiya/jp/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>アンサンブル予報の後処理と可視化</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/cluster/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/cluster/</link>
       <pubDate>Sun, 14 Apr 2024 15:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/cluster/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/cluster/</guid>
       <description>作成中</description>
     </item>
     
     <item>
       <title>機械学習とデータ同化を用いたバイアス補正</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/biascorr/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/biascorr/</link>
       <pubDate>Sun, 14 Apr 2024 15:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/biascorr/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/biascorr/</guid>
       <description>作成中
 論文：Amemiya, A., Mohta, S., and Miyoshi, T. (2023)</description>
     </item>
     
     <item>
       <title>気象レーダのデータ同化</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/radar_assim/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/radar_assim/</link>
       <pubDate>Sun, 14 Apr 2024 15:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/radar_assim/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/radar_assim/</guid>
       <description>気象予報と一言でいっても、その中身には様々な種類があります。
 それぞれの種類を特徴づけるのは、どのくらいの期間において、どのくらいの広さの領域に注目する予報であるかという点です。 気象学ではこのことを「時間スケール」・「空間スケール」と呼びます。
 数十分～数時間、</description>
@@ -43,10 +43,10 @@
     
     <item>
       <title>データ同化の概要</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/assim/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/assim/</link>
       <pubDate>Tue, 05 May 2020 10:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/assim/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/assim/</guid>
       <description>データ同化の概要 参考 データ同化研究チーム：研究紹介
 気象庁 | 数値予報とは
 気象庁 | 数値予報解説資料（数値予報研修テキスト）
@@ -82,10 +82,10 @@
     
     <item>
       <title>アジアモンスーン高気圧</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/ama/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/ama/</link>
       <pubDate>Sat, 16 Mar 2019 15:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/ama/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/ama/</guid>
       <description>はじめに アジアモンスーンおよびその上層の高気圧の大気化学における役割に関する研究は、国際的な組織による協力のもとで行われています。 世界気候研究計画(WCRP)の下部組織SPARCおよび国際地球大気化学プロジェクト(IGAC)の活動の一つであるAtmospheric Chemistry and the Asian Monsoon(ACAM)が、この分野の研究の相互協力の場となっています。
 アジアモンスーンと圏界面の高気圧 アジアモンスーン高気圧は北半球の夏季に、上空の対流圏界面付近に形成される惑星規模の高気圧である。平均的な大きさは経度方向に約10000km、緯度方向に約3000kmにわたる。 西は中東や北アフリカ、東は日本付近までユーラシア大陸の中緯度全体にわたって影響を及ぼす、非常に大きな現象である。
 この高気圧には複数の呼び名がある。日本ではチベット高気圧(Tibetan High)として知られており、夏季の日本の天候において重要な指標の一つである。他に南アジア高気圧(South Asian High)と呼ばれることもある。対流圏・成層圏間の物質循環に関する研究ではアジアモンスーン高気圧(Asian Monsoon Anticyclone)と呼ばれることが多い(1)。本稿ではこの呼称を用いる。
@@ -104,10 +104,10 @@
     
     <item>
       <title>重力波パラメタリゼーション</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/gwp/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/gwp/</link>
       <pubDate>Sat, 16 Mar 2019 15:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/gwp/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/gwp/</guid>
       <description>はじめに グローバルな気象学に関する研究分野の多くは、共通の目標を持った国際的な連携のもとで進められています。
 中層大気に関する研究の場合、世界気候研究計画(WCRP)の5つのプロジェクトのうちの1つである「成層圏過程と気候における役割」(SPARC)があります。SPARCの分科会のうちの一つとして大気重力波に関する研究のコミュニティがあり、共同研究やワークショップを行うなどの活動をしています。
 中層大気や大気重力波に関する日本語の解説は東京大学大学院理学系研究科 佐藤研究室 研究紹介のページも参照ください。

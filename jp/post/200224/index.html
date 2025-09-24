@@ -8,7 +8,7 @@
 
 
 
-<link rel="canonical" href="http://data-assimilation.riken.jp/~amemiya/jp/post/200224/">
+<link rel="canonical" href="https://aamemiya.github.io/webpage_aamemiya/jp/post/200224/">
 
 
 <script type="text/javascript" src="http://data-assimilation.riken.jp/~amemiya/MathJax/MathJax-2.7.5/MathJax.js?config=TeX-AMS_CHTML,local/local"></script>
@@ -21,18 +21,18 @@
 
 <meta property="og:title" content="大規模数値シミュレーションに関する考え - 雨宮 新 research website">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://data-assimilation.riken.jp/~amemiya/jp/post/200224/">
-<meta property="og:image" content="http://data-assimilation.riken.jp/~amemiya/images/default.png">
+<meta property="og:url" content="https://aamemiya.github.io/webpage_aamemiya/jp/post/200224/">
+<meta property="og:image" content="https://aamemiya.github.io/webpage_aamemiya/images/default.png">
 <meta property="og:site_name" content="雨宮 新 research website">
 <meta property="og:description" content="「モデルを回しているだけで研究していることになるのか？」というようなモヤモヤした疑問は学生のころから感じていた。 また、他の学生の感度実験の研究を見て、「あんなの線形応答と同じだろ、モデルを使わなくても分かっていたことじゃないか」と研究室の仲間と毒づいたりもした。しかしこの種の問題は、モヤモヤした違和感は共有することができても、正確な言葉でうまく表現することが難しい。 かつて高名な気象学の先生が「モデルの研究には文化の香りがしない」というような批判をされたと聞いたが、それも言いたいことは良くわかるのだがやはり何を批判しているのかが明確でない。原因の一つが語彙の不足にあるように思う。 日常的、もしくは研究現場で慣用的に用いている言葉は厳密な概念的な議論をするには語彙が足りず、多数の意味にとれる同じ語句が多すぎる。例えば、ここでは「モデル」という言葉を現代の研究者の慣用に従って「離散化した基礎方程式に基づく大気海洋の大規模な数値シミュレーション」という意味で用いているが、本来は「モデル」といえば対象を分析するために概念化したものならどんなレベルのものでもあてはまる、非常に幅広い言葉である。「理解する」とか「説明する」とかいう言葉もやはりあいまいだ。こういうことは言葉よりはむしろ感覚で共有している。「それで何が理解できたことになるのか？」という疑問や、「これは新しい理解を提示して意義がある」という感じは研究者の間で共有できるものだが、それを改めて概念にしたり、まして定量化しようと途端に難しくなる。しかし、こうした難しさは本質的にそれが不可能であるからなのか、それとも単に言葉の厳密さを重視する社会科学の訓練を受けていないからだろうか？ 科学哲学の専門家によるきちんとした分析の助けを借りれば、日常的なモヤモヤをもっと説得力のある言葉で表現できるようになるだろうか？そこで、2017年に刊行されたマイケル・ワイズバーグ氏による入門書の和訳「科学とモデル シミュレーションの哲学入門」を読んだ。本の内容に基づいて考えたことは別にまとめることにして、読書前の自分の問題意識を下にメモしておく。 実際の研究の現場ではかなりの部分において、「そのモデルを使うほどのことはないかもしれないが、とりあえず使ってみる」というノリで大規模シミュレーションを動かす状況がよく起こる。 大気力学の研究室では、モデルの結果の「解釈」を重視する姿勢を強調して教えられた。理学としては重要な姿勢だと思うが、「解釈できるなら最初からシミュレーション要らないのでは」という疑問に答えるのは容易ではない。人間の頭のメモリの容量はとても小さいので、頭で考えての解釈は必ず縮約された情報量で行われる（例えば大気大循環モデルによる数TBの出力データを用いてMJOの指数に対するコンポジットを計算して、主要な変動の大部分がMJOへの応答として説明されるという仮説を検証したりする）。しかし、どんなに大規模なシミュレーションの結果も結局そのような低次元の理解に落とし込むことになるのなら、最初から低次元の概念的なモデルで（もしくはその低次元の特徴を含む最小限のモデルで）シミュレーションすればよいのでは？ということになる。まじめに考えるなら、解釈のための次元縮約がつねに近似でしかなく、その次元での挙動も本当は系の細かい状態との相互作用に影響されるものであることを念頭に置いて大規模シミュレーションを行う、ということになる。理想はそうだが実際はそこまでの考慮が読み取れる研究ばかりとは限らない。 「理解する」「解釈する」とか、「説明する」という概念は０か１ではなく、０と１の間の中間の値をとるものであり、ある理解よりも高次な別の理解というものがあり得るように思う。もしくは、ある理解を別の理解と比較するための軸は単一ではなく多次元かもしれない。 現象の理解を目的とした理学的なシミュレーションだとこうした難しい議論になるが、工学的な（と分類してよいか分からないが）現象の理解はともかく予測をしたいという目的の場合にはもっと単純にシミュレーションが受け入れられているように思う。気象予報や気候予測がどちらに分類されるかは単純ではないが、何となくは、時間スケールが長く、不確かさが大きいほど、人間の（構造化した概念モデルに基づく）理解がより必要とされる傾向があるような気がする。長期予報に解説資料が必要であるように、また気候予測に「モデルの結果だから」にとどまらない詳細な説明が必要であるように。 「シミュレーションは科学と呼べるのか」という哲学的な問いとはまた別の種類のものとして、「シミュレーションを行う研究者の日々の営みは実際どのくらい科学的な営みと呼べるのか」という現実的な（社会科学的な？）問いがあると思う。これは大学院の学生がシミュレーションの研究をすることは一般の科学的方法を身につける上で適切なのか、という重要な実際上の問題に関わる。  ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="雨宮 新 research website">
-<meta name="twitter:url" content="http://data-assimilation.riken.jp/~amemiya/jp/post/200224/">
+<meta name="twitter:url" content="https://aamemiya.github.io/webpage_aamemiya/jp/post/200224/">
 <meta name="twitter:title" content="大規模数値シミュレーションに関する考え - 雨宮 新 research website">
 <meta name="twitter:description" content="「モデルを回しているだけで研究していることになるのか？」というようなモヤモヤした疑問は学生のころから感じていた。 また、他の学生の感度実験の研究を見て、「あんなの線形応答と同じだろ、モデルを使わなくても分かっていたことじゃないか」と研究室の仲間と毒づいたりもした。しかしこの種の問題は、モヤモヤした違和感は共有することができても、正確な言葉でうまく表現することが難しい。 かつて高名な気象学の先生が「モデルの研究には文化の香りがしない」というような批判をされたと聞いたが、それも言いたいことは良くわかるのだがやはり何を批判しているのかが明確でない。原因の一つが語彙の不足にあるように思う。 日常的、もしくは研究現場で慣用的に用いている言葉は厳密な概念的な議論をするには語彙が足りず、多数の意味にとれる同じ語句が多すぎる。例えば、ここでは「モデル」という言葉を現代の研究者の慣用に従って「離散化した基礎方程式に基づく大気海洋の大規模な数値シミュレーション」という意味で用いているが、本来は「モデル」といえば対象を分析するために概念化したものならどんなレベルのものでもあてはまる、非常に幅広い言葉である。「理解する」とか「説明する」とかいう言葉もやはりあいまいだ。こういうことは言葉よりはむしろ感覚で共有している。「それで何が理解できたことになるのか？」という疑問や、「これは新しい理解を提示して意義がある」という感じは研究者の間で共有できるものだが、それを改めて概念にしたり、まして定量化しようと途端に難しくなる。しかし、こうした難しさは本質的にそれが不可能であるからなのか、それとも単に言葉の厳密さを重視する社会科学の訓練を受けていないからだろうか？ 科学哲学の専門家によるきちんとした分析の助けを借りれば、日常的なモヤモヤをもっと説得力のある言葉で表現できるようになるだろうか？そこで、2017年に刊行されたマイケル・ワイズバーグ氏による入門書の和訳「科学とモデル シミュレーションの哲学入門」を読んだ。本の内容に基づいて考えたことは別にまとめることにして、読書前の自分の問題意識を下にメモしておく。 実際の研究の現場ではかなりの部分において、「そのモデルを使うほどのことはないかもしれないが、とりあえず使ってみる」というノリで大規模シミュレーションを動かす状況がよく起こる。 大気力学の研究室では、モデルの結果の「解釈」を重視する姿勢を強調して教えられた。理学としては重要な姿勢だと思うが、「解釈できるなら最初からシミュレーション要らないのでは」という疑問に答えるのは容易ではない。人間の頭のメモリの容量はとても小さいので、頭で考えての解釈は必ず縮約された情報量で行われる（例えば大気大循環モデルによる数TBの出力データを用いてMJOの指数に対するコンポジットを計算して、主要な変動の大部分がMJOへの応答として説明されるという仮説を検証したりする）。しかし、どんなに大規模なシミュレーションの結果も結局そのような低次元の理解に落とし込むことになるのなら、最初から低次元の概念的なモデルで（もしくはその低次元の特徴を含む最小限のモデルで）シミュレーションすればよいのでは？ということになる。まじめに考えるなら、解釈のための次元縮約がつねに近似でしかなく、その次元での挙動も本当は系の細かい状態との相互作用に影響されるものであることを念頭に置いて大規模シミュレーションを行う、ということになる。理想はそうだが実際はそこまでの考慮が読み取れる研究ばかりとは限らない。 「理解する」「解釈する」とか、「説明する」という概念は０か１ではなく、０と１の間の中間の値をとるものであり、ある理解よりも高次な別の理解というものがあり得るように思う。もしくは、ある理解を別の理解と比較するための軸は単一ではなく多次元かもしれない。 現象の理解を目的とした理学的なシミュレーションだとこうした難しい議論になるが、工学的な（と分類してよいか分からないが）現象の理解はともかく予測をしたいという目的の場合にはもっと単純にシミュレーションが受け入れられているように思う。気象予報や気候予測がどちらに分類されるかは単純ではないが、何となくは、時間スケールが長く、不確かさが大きいほど、人間の（構造化した概念モデルに基づく）理解がより必要とされる傾向があるような気がする。長期予報に解説資料が必要であるように、また気候予測に「モデルの結果だから」にとどまらない詳細な説明が必要であるように。 「シミュレーションは科学と呼べるのか」という哲学的な問いとはまた別の種類のものとして、「シミュレーションを行う研究者の日々の営みは実際どのくらい科学的な営みと呼べるのか」という現実的な（社会科学的な？）問いがあると思う。これは大学院の学生がシミュレーションの研究をすることは一般の科学的方法を身につける上で適切なのか、という重要な実際上の問題に関わる。  ">
-<meta name="twitter:image" content="http://data-assimilation.riken.jp/~amemiya/images/default.png">
+<meta name="twitter:image" content="https://aamemiya.github.io/webpage_aamemiya/images/default.png">
 
 
 <script type="application/ld+json">
@@ -41,12 +41,12 @@
     "@type": "NewsArticle",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id":"http://data-assimilation.riken.jp/~amemiya/"
+      "@id":"https://aamemiya.github.io/webpage_aamemiya/"
     },
     "headline": "大規模数値シミュレーションに関する考え - 雨宮 新 research website",
     "image": {
       "@type": "ImageObject",
-      "url": "http://data-assimilation.riken.jp/~amemiya/images/default.png",
+      "url": "https://aamemiya.github.io/webpage_aamemiya/images/default.png",
       "height": 800,
       "width": 800
     },
@@ -61,7 +61,7 @@
       "name": "雨宮 新 research website",
       "logo": {
         "@type": "ImageObject",
-        "url": "http://data-assimilation.riken.jp/~amemiya/images/logo.png",
+        "url": "https://aamemiya.github.io/webpage_aamemiya/images/logo.png",
         "width": 600,
         "height": 60
       }
@@ -85,7 +85,7 @@
 </script>
 
 
-    <link href="http://data-assimilation.riken.jp/~amemiya/css/styles.css" rel="stylesheet">
+    <link href="https://aamemiya.github.io/webpage_aamemiya/css/styles.css" rel="stylesheet">
     
 
   </head>
@@ -107,7 +107,7 @@
             </button>
 
 	    
-            <a class="navbar-brand" href="http://data-assimilation.riken.jp/~amemiya//jp">雨宮 新 research website</a>
+            <a class="navbar-brand" href="https://aamemiya.github.io/webpage_aamemiya//jp">雨宮 新 research website</a>
              
           </div>
 
@@ -115,30 +115,30 @@
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
 	      
-	      <li><a href="http://data-assimilation.riken.jp/~amemiya/">English</a></li>  
+	      <li><a href="https://aamemiya.github.io/webpage_aamemiya/">English</a></li>  
                
 	    </ul>
 	    
             <ul class="nav navbar-nav navbar-right">
               
               
-              <li><a href="/~amemiya/jp/">ホーム</a></li>
+              <li><a href="/webpage_aamemiya/jp/">ホーム</a></li>
               
               
               
-              <li><a href="/~amemiya/jp/profile/">プロフィール</a></li>
+              <li><a href="/webpage_aamemiya/jp/profile/">プロフィール</a></li>
               
               
               
-              <li><a href="/~amemiya/jp/publication/">論文・学会発表</a></li>
+              <li><a href="/webpage_aamemiya/jp/publication/">論文・学会発表</a></li>
               
               
               
-              <li><a href="/~amemiya/jp/research/">研究内容</a></li>
+              <li><a href="/webpage_aamemiya/jp/research/">研究内容</a></li>
               
               
               
-              <li><a href="/~amemiya/jp/links/">リンク</a></li>
+              <li><a href="/webpage_aamemiya/jp/links/">リンク</a></li>
               
               
             </ul>
@@ -158,9 +158,9 @@
 
     <nav class="p-crumb">
       <ol class="breadcrumb">
-        <li><a href="http://data-assimilation.riken.jp/~amemiya/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="https://aamemiya.github.io/webpage_aamemiya/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
         
-        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://data-assimilation.riken.jp/~amemiya/jp/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://aamemiya.github.io/webpage_aamemiya/jp/post/" itemprop="url"><span itemprop="title">post</span></a></li>
         
         <li class="active">大規模数値シミュレーションに関する考え</li>
       </ol>

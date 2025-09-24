@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Dr. Arata Amemiya research website</title>
-    <link>http://data-assimilation.riken.jp/~amemiya/</link>
+    <link>https://aamemiya.github.io/webpage_aamemiya/</link>
     <description>Recent content in Home on Dr. Arata Amemiya research website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jul 2019 21:30:00 +0900</lastBuildDate>
     
-	<atom:link href="http://data-assimilation.riken.jp/~amemiya/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aamemiya.github.io/webpage_aamemiya/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Profile</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/profile/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/profile/</link>
       <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/profile/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/profile/</guid>
       <description>Arata Amemiya  Research Scientist
 RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences(iTHEMS) (RIKEN Center for Computational Science (R-CCS) Data Assimilation research team) mail: arata.amemiya (at) riken.jp      Research career 2018.10〜 Postdoc researcher at RIKEN R-CCS Data assimilation research team
 2023.10〜 Research scientist at RIKEN CPR Predicction Science Laboratory
@@ -26,20 +26,20 @@ Education B.S., Department of Earth and Planetary Physics, Faculty of Science, T
     
     <item>
       <title>Publication</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/publication/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/publication/</link>
       <pubDate>Sat, 16 Mar 2019 15:52:28 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/publication/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/publication/</guid>
       <description>last update: 2025.9.19
 Peer-reviewed articles   Huo, Z., Y. Liu, J. Taylor, Y. Zhou, A. Amemiya, H. Fan, T. Miyoshi (2025): Incremental Analysis Updates in a Convective-Scale Ensemble Kalman Filter Using Minute-by-Minute Phased Array Radar Observations Journal of Advances in Modeling Earth Systems, 17,e2024MS004802.https://doi.org/10.1029/2024MS004802   Saito, K., T. Kawabata, H. Seko, T. Miyoshi, L. Duc, T. Oizumi, M. Kunii, G. Chen, K. Ito, J. Ito, S. Yokota, W.</description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/links/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/links/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/links/</guid>
       <description>ORCID
 Researchmap
 Google Scholar

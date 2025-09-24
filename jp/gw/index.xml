@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gws on 雨宮 新 research website</title>
-    <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/</link>
+    <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/</link>
     <description>Recent content in Gws on 雨宮 新 research website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 May 2020 10:10:20 +0900</lastBuildDate>
     
-	<atom:link href="http://data-assimilation.riken.jp/~amemiya/jp/gw/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aamemiya.github.io/webpage_aamemiya/jp/gw/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>大気重力波の分散関係・偏波関係</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_section1/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_section1/</link>
       <pubDate>Mon, 04 May 2020 10:10:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_section1/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_section1/</guid>
       <description>大気重力波は、数学的には線形化した基礎方程式系の解として記述される。その解の満たす条件が分散関係と偏波関係である。重力波に注目するのに適した基礎方程式系と、線形化した方程式の解の表現、分散関係と偏波関係の導出について述べる。また大気の場合に問題となる背景場の密度成層の高度依存性の扱いについても説明する。
 基礎方程式 3次元直交座標系にて、大気が従う力学的・熱力学的法則を最も基本的な形で記述すると、次のように運動方程式、質量保存の式、熱力学第一法則の3つの式から書ける。
 運動方程式 $$ \frac{du}{dt} = fv - \frac{1}{\rho}\frac{\partial p}{\partial x} $$ $$ \frac{dv}{dt} = - fu - \frac{1}{\rho}\frac{\partial p}{\partial y} $$ $$ \frac{dw}{dt} = - \frac{1}{\rho}\frac{\partial p}{\partial z} - g $$
@@ -27,10 +27,10 @@
     
     <item>
       <title>山岳波の線形理論・Fourier-Rayモデル 2</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_2/</link>
       <pubDate>Mon, 04 May 2020 09:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_2/</guid>
       <description>複数の層をもつ背景場の場合 大気の鉛直構造は滑らかに徐々に変化するとは限らない。大気境界層や圏界面付近で見られるように、異なる性質の層が上下に重なり、その境界付近では物理量が急激に変化するような特徴もよく見られる。
 背景場の鉛直構造を考慮してモデルを発展させる。背景場全体に単一の水平風と鉛直安定度の値を使う代わりに、大気が複数の層からなると考え、それぞれの層で異なる背景場の値を定義できるようにする。
 このモデルは、層境界を通過する重力波の屈折と反射を表現することができる。
@@ -50,10 +50,10 @@ $ p_{j-1}^{+} + p_{j-1}^{-} = p_{j}^{+} + p_{j}^{-} $
     
     <item>
       <title>はじめに</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_intro/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_intro/</link>
       <pubDate>Sat, 02 May 2020 10:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_intro/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_intro/</guid>
       <description>はじめに サン・テグジュペリの「人間の土地」には、アンデス山脈上空を飛行中に遭難し生還した飛行士(1)が登場する。彼の操縦する飛行機は、悪天候の中、急激な下降気流に遭遇する。操作の効かない機体は気流に翻弄され、数千メートルの高度差を落下する。
  下降気流が、時々操縦士に妙な気味悪い思いをさせることがある。発動機は具合よく回転しているのに、機体は下降する。高度を失うまいとして、上舵を引く。すると機体はスピードを失ってぐにゃりとなる。機体は相変わらず下降を続ける。上舵を引きすぎたかと思って手をゆるめる、踏切台のように風をはねかえしてくれる都合のいい峰の陰に隠れようと、右から左に機体を寄せてみるが、なおも下降は止らない。どうやら空全体が落ち込んでゆくような気持ちだ。すると、そのとき、人は自分が宇宙の大変異の中に巻き込まれたような気持になる。すでに避難所はどこにもない。空気が固く充実していて、柱のように機体を支えてくれるもと来た方に戻ろうと、引き返してもみるが、むだだ。柱はもうどこにもない。すべてが分解する。人は宇宙の崩壊の真っただ中に巻き込まれてふわふわと昇ってきて、きみに追いつき、やがてきみをのんでしまう、雲の方へとずり落ちてゆく。
 (「人間の土地」サン・テグジュペリ 堀口大學訳)
@@ -92,10 +92,10 @@ iv. WKB近似とRay Tracing方程式</description>
     
     <item>
       <title>山岳波の線形理論・Fourier-Rayモデル 1</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_1/</link>
       <pubDate>Sat, 02 May 2020 10:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_1/</guid>
       <description>概要 このモデルは、線形理論に基づき、定常な山岳波によって形成される各変数の擾乱の空間分布を計算するモデルである。
 最も単純なモデルは
  2次元（x-z断面） 背景場の密度・水平風・鉛直安定度が一様 地球自転の効果(コリオリ力)なし  最も複雑なモデルは以下の特徴に対応している。

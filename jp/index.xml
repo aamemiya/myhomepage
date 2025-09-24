@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ホーム on 雨宮 新 research website</title>
-    <link>http://data-assimilation.riken.jp/~amemiya/jp/</link>
+    <link>https://aamemiya.github.io/webpage_aamemiya/jp/</link>
     <description>Recent content in ホーム on 雨宮 新 research website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Feb 2021 21:30:00 +0900</lastBuildDate>
     
-	<atom:link href="http://data-assimilation.riken.jp/~amemiya/jp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aamemiya.github.io/webpage_aamemiya/jp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>プロフィール</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/profile/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/profile/</link>
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/profile/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/profile/</guid>
       <description>雨宮 新 (Amemiya Arata)  理化学研究所 数理創造研究センター (iTHEMS)
 予測科学研究チーム 研究員
 （兼 計算科学研究センター (R-CCS) データ同化研究チーム 研究員)
@@ -31,20 +31,20 @@ mail: arata.amemiya (at) riken.jp   -- 2020年10月31日 理研大阪・神戸�
     
     <item>
       <title>論文・学会発表</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/publication/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/publication/</link>
       <pubDate>Sat, 16 Mar 2019 15:52:28 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/publication/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/publication/</guid>
       <description>2025.9.19更新
 査読つき論文  Huo, Z., Y. Liu, J. Taylor, Y. Zhou, A. Amemiya, H. Fan, T. Miyoshi (2025): Incremental Analysis Updates in a Convective-Scale Ensemble Kalman Filter Using Minute-by-Minute Phased Array Radar Observations Journal of Advances in Modeling Earth Systems, 17,e2024MS004802.https://doi.org/10.1029/2024MS004802   Saito, K., T. Kawabata, H. Seko, T. Miyoshi, L. Duc, T. Oizumi, M. Kunii, G. Chen, K. Ito, J. Ito, S. Yokota, W. Mashiko, K. Kobayashi, S.</description>
     </item>
     
     <item>
       <title>リンク</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/links/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/links/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/links/</guid>
       <description>ORCID
 Researchmap
 Google Scholar
@@ -63,29 +63,29 @@ Google Scholar
     
     <item>
       <title>アンサンブル予報の後処理と可視化</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/cluster/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/cluster/</link>
       <pubDate>Sun, 14 Apr 2024 15:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/cluster/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/cluster/</guid>
       <description>作成中</description>
     </item>
     
     <item>
       <title>機械学習とデータ同化を用いたバイアス補正</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/biascorr/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/biascorr/</link>
       <pubDate>Sun, 14 Apr 2024 15:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/biascorr/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/biascorr/</guid>
       <description>作成中
 論文：Amemiya, A., Mohta, S., and Miyoshi, T. (2023)</description>
     </item>
     
     <item>
       <title>気象レーダのデータ同化</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/radar_assim/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/radar_assim/</link>
       <pubDate>Sun, 14 Apr 2024 15:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/radar_assim/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/radar_assim/</guid>
       <description>気象予報と一言でいっても、その中身には様々な種類があります。
 それぞれの種類を特徴づけるのは、どのくらいの期間において、どのくらいの広さの領域に注目する予報であるかという点です。 気象学ではこのことを「時間スケール」・「空間スケール」と呼びます。
 数十分～数時間、</description>
@@ -93,10 +93,10 @@ Google Scholar
     
     <item>
       <title>データ同化の概要</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/assim/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/assim/</link>
       <pubDate>Tue, 05 May 2020 10:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/assim/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/assim/</guid>
       <description>データ同化の概要 参考 データ同化研究チーム：研究紹介
 気象庁 | 数値予報とは
 気象庁 | 数値予報解説資料（数値予報研修テキスト）
@@ -132,10 +132,10 @@ Google Scholar
     
     <item>
       <title>大気重力波の分散関係・偏波関係</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_section1/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_section1/</link>
       <pubDate>Mon, 04 May 2020 10:10:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_section1/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_section1/</guid>
       <description>大気重力波は、数学的には線形化した基礎方程式系の解として記述される。その解の満たす条件が分散関係と偏波関係である。重力波に注目するのに適した基礎方程式系と、線形化した方程式の解の表現、分散関係と偏波関係の導出について述べる。また大気の場合に問題となる背景場の密度成層の高度依存性の扱いについても説明する。
 基礎方程式 3次元直交座標系にて、大気が従う力学的・熱力学的法則を最も基本的な形で記述すると、次のように運動方程式、質量保存の式、熱力学第一法則の3つの式から書ける。
 運動方程式 $$ \frac{du}{dt} = fv - \frac{1}{\rho}\frac{\partial p}{\partial x} $$ $$ \frac{dv}{dt} = - fu - \frac{1}{\rho}\frac{\partial p}{\partial y} $$ $$ \frac{dw}{dt} = - \frac{1}{\rho}\frac{\partial p}{\partial z} - g $$
@@ -146,10 +146,10 @@ Google Scholar
     
     <item>
       <title>山岳波の線形理論・Fourier-Rayモデル 2</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_2/</link>
       <pubDate>Mon, 04 May 2020 09:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_2/</guid>
       <description>複数の層をもつ背景場の場合 大気の鉛直構造は滑らかに徐々に変化するとは限らない。大気境界層や圏界面付近で見られるように、異なる性質の層が上下に重なり、その境界付近では物理量が急激に変化するような特徴もよく見られる。
 背景場の鉛直構造を考慮してモデルを発展させる。背景場全体に単一の水平風と鉛直安定度の値を使う代わりに、大気が複数の層からなると考え、それぞれの層で異なる背景場の値を定義できるようにする。
 このモデルは、層境界を通過する重力波の屈折と反射を表現することができる。
@@ -169,10 +169,10 @@ $ p_{j-1}^{+} + p_{j-1}^{-} = p_{j}^{+} + p_{j}^{-} $
     
     <item>
       <title>はじめに</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_intro/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_intro/</link>
       <pubDate>Sat, 02 May 2020 10:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_intro/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_intro/</guid>
       <description>はじめに サン・テグジュペリの「人間の土地」には、アンデス山脈上空を飛行中に遭難し生還した飛行士(1)が登場する。彼の操縦する飛行機は、悪天候の中、急激な下降気流に遭遇する。操作の効かない機体は気流に翻弄され、数千メートルの高度差を落下する。
  下降気流が、時々操縦士に妙な気味悪い思いをさせることがある。発動機は具合よく回転しているのに、機体は下降する。高度を失うまいとして、上舵を引く。すると機体はスピードを失ってぐにゃりとなる。機体は相変わらず下降を続ける。上舵を引きすぎたかと思って手をゆるめる、踏切台のように風をはねかえしてくれる都合のいい峰の陰に隠れようと、右から左に機体を寄せてみるが、なおも下降は止らない。どうやら空全体が落ち込んでゆくような気持ちだ。すると、そのとき、人は自分が宇宙の大変異の中に巻き込まれたような気持になる。すでに避難所はどこにもない。空気が固く充実していて、柱のように機体を支えてくれるもと来た方に戻ろうと、引き返してもみるが、むだだ。柱はもうどこにもない。すべてが分解する。人は宇宙の崩壊の真っただ中に巻き込まれてふわふわと昇ってきて、きみに追いつき、やがてきみをのんでしまう、雲の方へとずり落ちてゆく。
 (「人間の土地」サン・テグジュペリ 堀口大學訳)
@@ -211,10 +211,10 @@ iv. WKB近似とRay Tracing方程式</description>
     
     <item>
       <title>山岳波の線形理論・Fourier-Rayモデル 1</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_1/</link>
       <pubDate>Sat, 02 May 2020 10:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/gw/gw_frmodel_1/</guid>
       <description>概要 このモデルは、線形理論に基づき、定常な山岳波によって形成される各変数の擾乱の空間分布を計算するモデルである。
 最も単純なモデルは
  2次元（x-z断面） 背景場の密度・水平風・鉛直安定度が一様 地球自転の効果(コリオリ力)なし  最も複雑なモデルは以下の特徴に対応している。
@@ -234,10 +234,10 @@ $\eta$の定義より、$z=0$における境界条件として次が成り立っ
     
     <item>
       <title>「ファスト＆スロー」</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/200323/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/200323/</link>
       <pubDate>Mon, 23 Mar 2020 23:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/200323/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/200323/</guid>
       <description>ファスト＆スロー あなたの意思はどのように決まるか
 (原題 &amp;ldquo;Thinking, Fast and Slow&amp;rdquo;)
 ダニエル・カーネマン著、村井章子訳　ハヤカワ・ノンフィクション文庫
@@ -254,10 +254,10 @@ $\eta$の定義より、$z=0$における境界条件として次が成り立っ
     
     <item>
       <title>「科学とモデル シミュレーションの哲学入門」</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/200305/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/200305/</link>
       <pubDate>Thu, 05 Mar 2020 23:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/200305/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/200305/</guid>
       <description>科学とモデル シミュレーションの哲学入門
 マイケル・ワイズバーグ著、松王政浩訳　名古屋大学出版会
 著者は科学哲学者だが、比較的科学者の方に歩み寄った内容で、厳密な（「意味論的な」）定義よりも科学者が実際の研究の営みの中で経験するモデリングに関わる様々な思考を分析する上での有用性を重視して書かれている。
@@ -288,10 +288,10 @@ $\eta$の定義より、$z=0$における境界条件として次が成り立っ
     
     <item>
       <title>今年の暖候期予報</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/200227/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/200227/</link>
       <pubDate>Thu, 27 Feb 2020 23:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/200227/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/200227/</guid>
       <description>2月26日に気象庁から今年の6～8月の気温と降水量についての暖候期予報が発表された。
 http://www.jma.go.jp/jp/longfcst/000_1_20.html
 また、同時期にTokyo Climate Centerからもアジア全体の今年の夏の気候についての長期予報の解説資料が出ている。
@@ -313,10 +313,10 @@ https://www.ecmwf.int/en/forecasts/documentation-and-support/long-range</descrip
     
     <item>
       <title>大規模数値シミュレーションに関する考え</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/200224/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/200224/</link>
       <pubDate>Mon, 24 Feb 2020 22:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/200224/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/200224/</guid>
       <description>「モデルを回しているだけで研究していることになるのか？」というようなモヤモヤした疑問は学生のころから感じていた。 また、他の学生の感度実験の研究を見て、「あんなの線形応答と同じだろ、モデルを使わなくても分かっていたことじゃないか」と研究室の仲間と毒づいたりもした。
 しかしこの種の問題は、モヤモヤした違和感は共有することができても、正確な言葉でうまく表現することが難しい。 かつて高名な気象学の先生が「モデルの研究には文化の香りがしない」というような批判をされたと聞いたが、それも言いたいことは良くわかるのだがやはり何を批判しているのかが明確でない。
 原因の一つが語彙の不足にあるように思う。 日常的、もしくは研究現場で慣用的に用いている言葉は厳密な概念的な議論をするには語彙が足りず、多数の意味にとれる同じ語句が多すぎる。
@@ -336,10 +336,10 @@ https://www.ecmwf.int/en/forecasts/documentation-and-support/long-range</descrip
     
     <item>
       <title>フランス・ブレストの気候と天気</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/200228/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/200228/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/200228/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/200228/</guid>
       <description>海外出張に行くたびに、現地の気候や天気の基本的特徴を勉強したり、利用できる気象情報アプリについて調べるのが楽しみになっている。
 ブレストの気候 参考：
 meteoblue - climate(observed)
@@ -358,10 +358,10 @@ meteociel 各国の全球モデル・ヨーロッパ周辺の領域モデルの�
     
     <item>
       <title>AIの専門分科会</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/191109/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/191109/</link>
       <pubDate>Sat, 09 Nov 2019 01:00:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/191109/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/191109/</guid>
       <description>　気象学会秋季大会では、「人工知能（AI）は気象学にブレイクスルーをもたらすか？」という専門分科会で発表する機会を頂いた。
 実際の観測データへの適用例が多い中、Lorenz96モデルを用いた基礎研究という硬派な話題を提供することになったので、全体のバランスと多様性に少しは貢献しただろうか。
 機械学習の研究では「実際そこまで複雑なことをする必要があるか？」という問題がついてくるものだが、自分の研究も現時点では問題の複雑さに応じたモデルの評価をするまでに至っていないので、次の機会までに改善したい。
@@ -379,10 +379,10 @@ AIという呼び方はあまり好きではないのいで「冗長性をもつ
     
     <item>
       <title>国際HPCサマースクール</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/190715/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/190715/</link>
       <pubDate>Mon, 15 Jul 2019 21:40:00 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/190715/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/190715/</guid>
       <description>先週R-CCSで行われた国際HPCサマースクールに参加した。
 各国の学生や研究者が集まり、5日間かけて大規模数値計算に関する技術の基礎を学ぶ。内容は並列計算、パフォーマンス評価、プロジェクト管理、機械学習、ビッグデータなど。
 参加者は確か80人以上おり、計算科学という共通項はあるが医療から宇宙まで専門は幅広く分散していた。見たところ気象関係は自分だけだった。
@@ -407,10 +407,10 @@ AIという呼び方はあまり好きではないのいで「冗長性をもつ
     
     <item>
       <title>LETKFの「L」</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/190609/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/190609/</link>
       <pubDate>Sun, 09 Jun 2019 23:16:31 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/190609/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/190609/</guid>
       <description>アンサンブルカルマンフィルタにおいて解析を局所的に行うということが、しばらくの間は何となく素直に納得できなかった。
 最適な推定値を求めるといったときに、その「最適」の尺度として全体についての単一の尺度を使うのではなく、 領域の中の部分ごとに異なる複数の尺度を同時に使うという発想は自然なものだと思う。
 そのおかげで、東京の予報を最適にするために京都の予報の精度を少し下げる必要があるというような状態は起こらない。
@@ -435,10 +435,10 @@ AIという呼び方はあまり好きではないのいで「冗長性をもつ
     
     <item>
       <title>ニューラルネットワークによる関数の近似</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/190520/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/190520/</link>
       <pubDate>Mon, 20 May 2019 00:10:18 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/190520/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/190520/</guid>
       <description>自分の勉強のためfortranで最も単純なニューラルネットワークを作った。
 (2019/6/23 追記：TensorFlowがニューラルネットワークの仕組みをブラウザ上でインタラクティブに体感できるツールを提供している(https://playground.tensorflow.org) 。
 以下に書いたような内容に近いことを扱っているが、もちろん、ずっと洗練されている。)
@@ -469,10 +469,10 @@ AIという呼び方はあまり好きではないのいで「冗長性をもつ
     
     <item>
       <title>Eqntest</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/eqntest/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/eqntest/</link>
       <pubDate>Sat, 11 May 2019 14:31:11 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/eqntest/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/eqntest/</guid>
       <description>時系列モデル
 $$ {\bf x}{t+1}={bf Mx{t} $$
 に従う変数 \({\bf x}\) を時刻 \(t+1\) で推定する。 ここではモデルが完全であると考えて時間発展に伴う誤差は無視する。 観測は ${\bf y}$ で、 ${\bf x}$ とは異なる次元を持ち（より少ない場合が多い）、次の線形関係を持つ。
@@ -484,10 +484,10 @@ $$ {\bf x}^f = {\bf x}^t + {\bf \epsilon}^f $$ $$ {\bf y} = {\bf Hx}^t + {\bf \e
     
     <item>
       <title>好奇心</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/190422/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/190422/</link>
       <pubDate>Mon, 22 Apr 2019 02:10:11 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/190422/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/190422/</guid>
       <description>先日、とある集まりで、年代も職業もそれぞれ違った十数人の初対面の人の前で自分の仕事について話す機会があった。
 自己紹介をして、気象を研究している研究者です、というと、そこにみんなすごく食いついてきた。まるで珍しい動物を見つけたときみたいな好奇心いっぱいな様子で、どんな研究をしているの、一番面白いのはどんなことなの、どうしてその道に進もうと思ったの、といった質問を浴びせてきた。
 このような状況は学生のときからある程度慣れていた。
@@ -503,10 +503,10 @@ $$ {\bf x}^f = {\bf x}^t + {\bf \epsilon}^f $$ $$ {\bf y} = {\bf Hx}^t + {\bf \e
     
     <item>
       <title>虎の絵の話</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/190411/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/190411/</link>
       <pubDate>Thu, 11 Apr 2019 00:57:18 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/190411/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/190411/</guid>
       <description>最近の話題の関連で、絵描きの物の見方についての大学教授による記事が目に入った。
 写真は視界に入るものを均等に投影している（カメラの物理的な特性による限界はあるが）のに対し、絵による表現には対象への主観的な注目が含まれる。どの対象に注目してどのように捉えるのかによって見え方が変わる。そこに技術の良しあしがあり個性が出る、ということだそうだ。
 確かに目で見た風景の見え方が写真のようではないことは普段から体験できる。丹沢や奥多摩の山に登って見える富士山の大きさには圧倒的なものがあるが、撮った写真を家に帰って見てもその感じは伝わらない。その「圧倒的な大きさの感じ」は単なる画像の情報だけでなく無意識に心の中で起こる認識の加工の結果として生まれるものだからだ。絵を描くときは風景写真とは異なり、そのような主観的な印象も絵の中に再現することになる。
@@ -519,10 +519,10 @@ $$ {\bf x}^f = {\bf x}^t + {\bf \epsilon}^f $$ $$ {\bf y} = {\bf Hx}^t + {\bf \e
     
     <item>
       <title>ディープ・シンキング 人工知能の思考を読む</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/190404/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/190404/</link>
       <pubDate>Thu, 04 Apr 2019 08:20:49 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/190404/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/190404/</guid>
       <description>チェスの元グランドマスター、ガルリ・カスパロフ氏による書き下ろしの日本語訳。
 カスパロフ氏は1997年にIBMのディープブルーとの2回目の番勝負に敗れ、初めてコンピュータに敗れた人間のグランドマスターとして歴史に残ることとなった。
 チェスの世界でコンピュータが人間に勝利したというニュースは世界的な話題となり日本にも届いた。ちょうど羽生善治が七冠を達成して約1年後のことで、将棋がNHKの連続ドラマの題材になり、どの小学校でも紙の駒で遊ぶ子供たちがいた頃だった。その世代が大人になった2013年に今度は将棋の世界でもコンピュータとの本格的な衝突が起こることになるのだが、そのような状況は当時はまだ遠い未来のように思えた。インターネットや携帯電話は今ほど身近ではなかった。コンピュータの性能は今よりもはるかに低く、とても扱いづらかった。そのような20世紀に将棋や囲碁に比べて20年近く先んじて起こった出来事は、したがって、実際のところ決して巧妙でスマートなものではなかった。
@@ -538,20 +538,20 @@ $$ {\bf x}^f = {\bf x}^t + {\bf \epsilon}^f $$ $$ {\bf y} = {\bf Hx}^t + {\bf \e
     
     <item>
       <title>はじめに</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/post/about/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/post/about/</link>
       <pubDate>Mon, 01 Apr 2019 23:14:58 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/post/about/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/post/about/</guid>
       <description>しばらく練習用に公開します。
 研究に関連することで、でも普段の研究からは少しわき道にそれたことを書くような場所にしようと思います。</description>
     </item>
     
     <item>
       <title>アジアモンスーン高気圧</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/ama/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/ama/</link>
       <pubDate>Sat, 16 Mar 2019 15:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/ama/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/ama/</guid>
       <description>はじめに アジアモンスーンおよびその上層の高気圧の大気化学における役割に関する研究は、国際的な組織による協力のもとで行われています。 世界気候研究計画(WCRP)の下部組織SPARCおよび国際地球大気化学プロジェクト(IGAC)の活動の一つであるAtmospheric Chemistry and the Asian Monsoon(ACAM)が、この分野の研究の相互協力の場となっています。
 アジアモンスーンと圏界面の高気圧 アジアモンスーン高気圧は北半球の夏季に、上空の対流圏界面付近に形成される惑星規模の高気圧である。平均的な大きさは経度方向に約10000km、緯度方向に約3000kmにわたる。 西は中東や北アフリカ、東は日本付近までユーラシア大陸の中緯度全体にわたって影響を及ぼす、非常に大きな現象である。
 この高気圧には複数の呼び名がある。日本ではチベット高気圧(Tibetan High)として知られており、夏季の日本の天候において重要な指標の一つである。他に南アジア高気圧(South Asian High)と呼ばれることもある。対流圏・成層圏間の物質循環に関する研究ではアジアモンスーン高気圧(Asian Monsoon Anticyclone)と呼ばれることが多い(1)。本稿ではこの呼称を用いる。
@@ -570,10 +570,10 @@ $$ {\bf x}^f = {\bf x}^t + {\bf \epsilon}^f $$ $$ {\bf y} = {\bf Hx}^t + {\bf \e
     
     <item>
       <title>重力波パラメタリゼーション</title>
-      <link>http://data-assimilation.riken.jp/~amemiya/jp/research/gwp/</link>
+      <link>https://aamemiya.github.io/webpage_aamemiya/jp/research/gwp/</link>
       <pubDate>Sat, 16 Mar 2019 15:00:20 +0900</pubDate>
       
-      <guid>http://data-assimilation.riken.jp/~amemiya/jp/research/gwp/</guid>
+      <guid>https://aamemiya.github.io/webpage_aamemiya/jp/research/gwp/</guid>
       <description>はじめに グローバルな気象学に関する研究分野の多くは、共通の目標を持った国際的な連携のもとで進められています。
 中層大気に関する研究の場合、世界気候研究計画(WCRP)の5つのプロジェクトのうちの1つである「成層圏過程と気候における役割」(SPARC)があります。SPARCの分科会のうちの一つとして大気重力波に関する研究のコミュニティがあり、共同研究やワークショップを行うなどの活動をしています。
 中層大気や大気重力波に関する日本語の解説は東京大学大学院理学系研究科 佐藤研究室 研究紹介のページも参照ください。
