@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.54.0" />
+
+
+
+<link rel="canonical" href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/">
+
+
+<script type="text/javascript" src="http://data-assimilation.riken.jp/~amemiya/MathJax/MathJax-2.7.5/MathJax.js?config=TeX-AMS_CHTML,local/local"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>雨宮 新 research website</title>
+    
+    <link href="http://data-assimilation.riken.jp/~amemiya/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+	    
+            <a class="navbar-brand" href="http://data-assimilation.riken.jp/~amemiya//jp">雨宮 新 research website</a>
+             
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+	      
+	      <li><a href="http://data-assimilation.riken.jp/~amemiya/">English</a></li>  
+               
+	    </ul>
+	    
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/~amemiya/jp/">ホーム</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/profile/">プロフィール</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/publication/">論文・学会発表</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/research/">研究内容</a></li>
+              
+              
+              
+              <li><a href="/~amemiya/jp/links/">リンク</a></li>
+              
+              
+            </ul>
+             
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+
+	
+        <li><a href="http://data-assimilation.riken.jp/~amemiya/jp/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+            
+<li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><span itemprop="title">研究内容</span></li>
+
+        
+          <li class="active">山岳波の線形理論・Fourier-Rayモデル 1</li> 
+	
+
+      </ol>
+    </nav>
+
+
+<main class="main list">
+	<div class="content clearfix">
+	<div class="article-body">
+		
+
+<h2 id="概要">概要</h2>
+
+<p>このモデルは、線形理論に基づき、定常な山岳波によって形成される各変数の擾乱の空間分布を計算するモデルである。</p>
+
+<p>最も単純なモデルは</p>
+
+<ul>
+<li>2次元（x-z断面）</li>
+<li>背景場の密度・水平風・鉛直安定度が一様</li>
+<li>地球自転の効果(コリオリ力)なし</li>
+</ul>
+
+<p>最も複雑なモデルは以下の特徴に対応している。</p>
+
+<ul>
+<li>3次元</li>
+<li>非静力、コリオリ力、背景場の密度成層の効果あり</li>
+<li>背景場の水平風・鉛直安定度の鉛直分布（線形変化、不連続な層境界）を考慮</li>
+<li>波の屈折・部分反射を表現</li>
+</ul>
+
+<p>モデルを理解するために、最初に最も単純な2次元の背景場一様の場合について<br />
+計算の内容を述べる。</p>
+
+<h2 id="基本-2次元-背景場一様の場合">基本：2次元、背景場一様の場合</h2>
+
+<p>※以下では簡単のため密度成層$\rho_0(z)$の影響を考慮しない。正確には風速や変位の振幅に密度の1/2乗に反比例する重みが加わり高さとともに増大するが、ここでは$\rho_0(z)$を一様と近似し波の振幅を鉛直方向に一定とみなす。</p>
+
+<h3 id="分散関係">分散関係</h3>
+
+<p>2次元の場合、背景場の変数として水平風 $\overline{u}$ および鉛直安定度(浮力振動数) $N^2$ の2つを与えれば、その背景場の下で存在する重力波の満たす分散関係が次の通り定まる。</p>
+
+<p>$$ \hat{\omega}^2 = N^2 \frac{k^2}{m^2 - k^2}$$</p>
+
+<p>背景場が一様であり、波源である山岳も動かないので、発生する波は定常である。すなわち周波数 $\omega=0$ であるので、</p>
+
+<p>$$ \hat{\omega}=-k\overline{u}  $$</p>
+
+<p>分散関係式に代入すると、次の通り$m$を求める式が得られる。</p>
+
+<p>$$ m^2 = \frac{N^2}{\overline{u}^2}-k^2 $$</p>
+
+<h3 id="波数空間への変換を用いた計算">波数空間への変換を用いた計算</h3>
+
+<p>山岳波の形成する擾乱を表現する準備として、水平、鉛直方向の流線の変位 $\xi&rsquo;$、$\eta&rsquo;$ を導入する。これらは、山岳が存在しない場合の流線を基準としたずれの大きさに対応し、速度の擾乱と次のように関係づけられる。</p>
+
+<p>$$ \frac{D}{Dt}\xi = -\overline{u} \frac{\partial}{\partial x} \xi = u&rsquo;  $$
+$$ \frac{D}{Dt}\eta = -\overline{u} \frac{\partial}{\partial x} \eta = w&rsquo; $$</p>
+
+<p>$\eta$の定義より、$z=0$における境界条件として次が成り立っている。
+$$ \eta(x,0) = h(x) $$</p>
+
+<p>目標は、高さ$h(x)$の山岳があるときに、領域全体の変数 $u&rsquo;(x,z),w&rsquo;(x,z),\xi(x,z),\eta(x,z)$ を求めることである。<br />
+まず、$\eta(x,z)$を次のようにフーリエ変換する。</p>
+
+<p>$$ \eta(x,z) = \frac{1}{4\pi^2} \int \int \hat{\eta}(k,m) \exp (ikx+imz) dk dm $$</p>
+
+<p>分散関係を満たす$(k,m)$の組のみについてゼロでない$\hat{\eta}(k,m)$が存在するので、次のように書き直せる。</p>
+
+<p>$$ \eta(x,z) = \frac{1}{2\pi} \int \hat{\eta}(k) \exp (ikx+im(k)z) dk $$</p>
+
+<p>$z=0$の特別な場合において、$\eta(x,0)=h(x)$をフーリエ変換し上式に代入すると<br />
+$$ \hat{\eta}(k) = \hat{h}(k) $$
+となる。<br />
+これを用いて、各$z&gt;0$に対して、式の右辺の通り$\hat{\eta}(k)\exp(im(k)z)$をフーリエ逆変換すれば解$\eta(x,z)$が求められる。</p>
+
+<h3 id="鉛直波数の符号の選択">鉛直波数の符号の選択</h3>
+
+<p>鉛直波数$m$を上の分散関係から求める。<br />
+分散関係式は$m^2$の形であるため、一つの$k$の値に対して正負の符号の二種類の$m$が存在できる。このうち、山岳波の解として用いることができるのは常に片方のみである。これは鉛直方向の境界条件の考慮による制約であるが、それについて説明する前に、まず$m$が$k$の値によって実数・虚数のいずれの値もとりうることの意味を考える必要がある。</p>
+
+<h4 id="bv-m-が実数の場合">$\bv{m}$が実数の場合</h4>
+
+<p>上式より、$|k|\le\frac{N}{\overline{u}}$ のとき$m$は実数となる。このとき$\exp(imz)$は振幅一定の波となり、鉛直方向にも波数を持つ重力波を表すことになる。<br />
+$m$の符号の正負は、それぞれ鉛直方向に反対向きに伝播する単色の重力波に対応している。このうち物理的に存在できるのは片方だけである。なぜなら、問題としている領域は重力波の波源である地表の山岳の上側のみだからである。したがって上向きに伝播する重力波のみが$z&gt;0$には存在できる。下向きに伝播する波があるということは、領域の上になにか別の波源があることになってしまう。<br />
+このことは、山岳が突然出現するという思考実験で理解できるかもしれない。山岳が出現した直後は、山岳から発生した波のパターンが地表からある高さまでの間を占め、その上にはまだ到達していない過渡的な状態にある。このとき波のパターンの先端は上向きに伝播している。<br />
+ここで「伝播」とは、波のパターンが占める空間が広がることであり、波の位相の移動ではないことに注意が必要である。すなわち、その向きと大きさを表すのは群速度であって位相速度ではない。波源から周りの空間への波の伝播を考える際の因果関係は基本的に群速度を用いて考えるべきである。</p>
+
+<p>鉛直方向の群速度は、
+$$c_{gz} = \frac{\partial \omega}{\partial m} = - \frac{mk^2N^2}{\hat{\omega}(m^2-k^2)^2} = \frac{kmN^2}{\overline{u}(m^2-k^2)^2}$$
+となる。すなわち、固有位相速度 $\hat{\omega}/m$とは必ず逆符号である。<br />
+$z&gt;0$に波が存在するためには、波源との因果関係より、鉛直群速度は正でなければならない。そのための条件は、上式より
+$$km&gt;0$$
+である。</p>
+
+<h4 id="bv-m-が虚数の場合">$\bv{m}$が虚数の場合</h4>
+
+<p>次に、$|k|\gt\frac{N}{\overline{u}}$ で$m$が虚数となる場合を考える。このとき$\exp(imz)$は$z$について指数関数となる。指数$im$が正のときは$z\to +\infty$で発散、負の時は$0$に収束する。<br />
+領域の$z$方向の上端は特に境界があるわけではないが、物理的に意味のある解のみが存在できる。すなわち、モデル上端については、暗黙のうちに「$z\to +\infty$で物理量が発散しない」ことが要請されている。<br />
+したがって鉛直上向きに減衰する、$m$の虚数部が正である方の解が選択される。</p>
+
+<p>以上で、すべての$k$に対して単一の$m$を対応付けることができた。<br />
+この$m$を用いれば、$\eta(x,z)$の式の積分の中身を$k$の一価関数として書くことができ、フーリエ逆変換によって解が求められる。</p>
+
+<figure align="center">
+<img src="../../../images/gw/sample_const.png" width=400px>
+<figcaption>計算された$\eta$、$w'$の例 背景場$\overline{u}=10 \mathrm{m/s}$、$N=0.018 \mathrm{s^{-1}}$<br>
+山の形状は幅20kmのガウシアン、高さ400m
+</figcaption>
+</figure>
+
+<p>ある基準高さ$z_0$を定めて、$(x+\xi(x,z_0),z_0+\eta(x,z_0))$を結んだ線を描くと流線を描くことができる。</p>
+
+<h3 id="振幅の線形性の限界">振幅の線形性の限界</h3>
+
+<p>計算される山岳波の構造は、山の形状$h(x)$には依存するが振幅には依存しない。山の高さが全体的に定数倍されれば、解の各変数が定数倍になるのみである。<br />
+上図と同じ設定で、山の高さを2倍の800mにした場合、下の図のように異なる高さの流線が互いに衝突する。</p>
+
+<figure align="center">
+<img src="../../../images/gw/sample_const_large.png" width=400px>
+<figcaption>山の高さ800mの場合</figcaption>
+</figure>
+
+<p>これは、最初に重力波を定義するときの線形化で用いた微小振幅の近似が成り立たない限界に達していることを意味している。</p>
+
+<p>微小振幅の近似が成り立たなくなる境目は、大まかには、「$\eta$の振幅が鉛直波長と同程度に大きい」ときに対応する。<br />
+この山岳波の例では、山の高さを$H$とすると $$ H \sim m^{-1} = \frac{\overline{u}}{N} $$、すなわち
+$$ Fr \equiv \frac{\overline{u}}{NH} \sim 1 $$</p>
+
+<p>ここで定義される無次元数 $Fr$ はフルード数と呼ばれ、山を越える流れの性質を区別するために用いられる。$Fr$が大きいとき山岳波の特徴が強く、$Fr$が小さいとき渦や乱流の特徴が強い流れ（跳水現象など）となる。</p>
+
+<p>現実には図のように流線が重なることは起こらないが、大振幅の波ではそれに近い状況が起こることはある。<br />
+等温位面が著しく傾くので、対流不安定またはケルビン・ヘルムホルツ不安定によって細かい構造が発達し、最終的に乱流として散逸する。このような過程は重力波の「砕波」とよばれ、結果的に不安定が解消されるまで波の振幅が減少することになる。</p>
+
+<h3 id="任意の変数の擾乱">任意の変数の擾乱</h3>
+
+<p>$\eta$以外の変数の擾乱を求めるには、波数空間に直した偏波関係を用いる。すなわち、$\xi$と$\eta$の定義式および連続の式より、</p>
+
+<p>$$ -\hat{\omega}\hat{\xi} = \hat{u} $$
+$$ -\hat{\omega}\hat{\eta} = \hat{w} $$
+$$ k\hat{u} + m\hat{w} = 0 $$</p>
+
+<p>これを用いて、$\eta$と同様に下のような式を用いて逆フーリエ変換によって他の変数の空間分布を求めることができる。
+$$ u(x,z) = \frac{1}{2\pi} \int \hat{u}(k) \exp (ikx+im(k)z) dk $$</p>
+
+<h3 id="解析解">解析解</h3>
+
+<p>山岳$h(x)$の関数形は任意であるので、フーリエ変換しても単純な関数で表現できるような関数形に設定してもよい。例えばガウシアンや、ベル型関数
+$$ h(x) = \frac{1}{(1+x^2)^{\frac{3}{2}}}$$
+のような関数形がよく使われる。<br />
+また、静水圧平衡の近似 $ N^2 \gg \hat{\omega}^2 $ を適用すれば（山岳が水平方向に数十km以上であればこの近似は十分成り立ち、ほとんど結果に影響しない）、分散関係はより簡単になる。
+$$ m^2 \simeq \frac{N^2}{\overline{u}^2}$$</p>
+
+<p>このような場合、山岳波のパターン$\eta(x,z)$を完全に解析的に求めることが可能である。<br />
+つまり、<strong>数値計算を全く用いず手計算のみで$\eta(x,z)$を描くことができる。</strong></p>
+
+<h3 id="数値計算">数値計算</h3>
+
+<p>任意の$h(x)$に対しては、$\hat{h}(k)$を求めるフーリエ変換、および$\exp(imz)$を掛けた後に$x$の関数に戻すためのフーリエ逆変換の計算を数値的に行うことになる。これらはFFT(高速フーリエ変換)を用いて実装することができる。</p>
+
+<h3 id="参考">参考</h3>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.3402/tellusa.v32i4.10590">Smith, 1980</a></p>
+
+	</div>
+	</div>
+</main>
+
+  </div>
+
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">PAGES</div>
+    </div>
+    <div class="list-group">
+      
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_section1/" class="list-group-item">大気重力波の分散関係・偏波関係</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_2/" class="list-group-item">山岳波の線形理論・Fourier-Rayモデル 2</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_intro/" class="list-group-item">はじめに</a>
+      
+      <a href="http://data-assimilation.riken.jp/~amemiya/jp/gw/gw_frmodel_1/" class="list-group-item">山岳波の線形理論・Fourier-Rayモデル 1</a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+      </a>
+      
+    </div>
+  </section>
+
+</aside>
+
+
+  </div>
+  </div>
+
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; 雨宮 新 research website</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
